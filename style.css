@@ -1,0 +1,118 @@
+.github-btn {
+    display: inline-block;
+    background: #24292e;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.7em 2em;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 1em 0 0 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    transition: background 0.2s, color 0.2s;
+    border: none;
+}
+.github-btn:hover {
+    background: #444d56;
+    color: #f9d423;
+}
+.btn-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5em;
+    line-height: 0;
+}
+.discord-btn {
+    display: inline-block;
+    background: #5865F2;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.7em 2em;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 1em 0 0 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    transition: background 0.2s, color 0.2s;
+    border: none;
+}
+.discord-btn:hover {
+    background: #404eed;
+    color: #f9d423;
+}
+/* Comic Sans Official Support Site Styles */
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+    background: linear-gradient(135deg, #f9d423 0%, #ff4e50 100%);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: #222;
+}
+
+.header {
+    background: rgba(255,255,255,0.85);
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #ff4e50;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0 #fff59d, 4px 4px 0 #ff4e50;
+}   
+.header p {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 0.5rem 0 0 0;
+}
+
+.main {
+    max-width: 700px;
+    margin: 2rem auto;
+    background: rgba(255,255,255,0.95);
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    padding: 2rem 2.5rem;
+}
+.main h2 {
+    color: #f9d423;
+    margin-top: 0;
+    font-size: 2rem;
+}
+.main ul {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    padding-left: 1.2em;
+}
+.download-btn {
+    display: inline-block;
+    background: #ff4e50;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.7em 2em;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 2em 0 0 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    transition: background 0.2s;
+}
+.download-btn:hover {
+    background: #f9d423;
+    color: #ff4e50;
+}
+.footer {
+    text-align: center;
+    color: #fff;
+    margin: 3rem 0 1rem 0;
+    font-size: 1rem;
+    text-shadow: 1px 1px 0 #ff4e50;
+}
+@media (max-width: 600px) {
+    .main {
+        padding: 1rem 0.5rem;
+    }
+    .header h1 {
+        font-size: 2rem;
+    }
+}
